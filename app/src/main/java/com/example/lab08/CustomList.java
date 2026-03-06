@@ -8,7 +8,9 @@ public class CustomList {
     public boolean hasCity(City city) {
         return cities.contains(city);
     }
-
+    public int countCities() {
+        return cities.size();
+    }
 
 
 
