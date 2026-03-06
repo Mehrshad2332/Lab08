@@ -17,11 +17,11 @@ public class CustomList {
     }
 
 
-/*
+
     public void deleteCity(City city) {
         cities.remove(city);
     }
-*/
+
     public CustomList() {
         this.cities = new ArrayList<>();
     }
