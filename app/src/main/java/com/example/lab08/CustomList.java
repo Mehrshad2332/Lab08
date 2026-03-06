@@ -5,6 +5,14 @@ import java.util.List;
 
 public class CustomList {
     private List<City> cities;
+    public boolean hasCity(City city) {
+        return cities.contains(city);
+    }
+
+
+
+
+
 
     public CustomList() {
         this.cities = new ArrayList<>();
